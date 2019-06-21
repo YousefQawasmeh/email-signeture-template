@@ -1,0 +1,56 @@
+body, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+#email-signature {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+    margin-left: 10%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#image-box {
+    width: 45%;
+    padding: 3% 0;
+}
+
+img {
+    width: 75%;
+    height: 75%;
+    float: right;
+}
+
+#details {
+    border-left: 2px solid #e06d0c;
+    width: 45%;
+    padding: 2% 3%;
+}
+
+#name {
+    color: #e06d0c;
+    font-weight: bold;
+}
+
+#secondary-info .info {
+    display: flex;
+    width: 37%;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+#primary-info{
+    margin-bottom: 5%;
+}
+
+
+
+.info-icon {
+    width: 13%;
+    height: 13%;
+}
+
